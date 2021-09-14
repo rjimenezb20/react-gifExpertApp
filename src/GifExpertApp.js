@@ -7,7 +7,7 @@ export const GifExpertApp = () => {
 
     //const categories = ['On Punch', 'Samurai X', 'Dragon Ball'];
 
-    const [categories, setCategories] = useState(['Rick and Morty']);
+    const [categories, setCategories] = useState('Rick and Morty');
 
     return (
         <>
