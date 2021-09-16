@@ -2,35 +2,38 @@
   font-family: Helvetica, Arial, sans-serif;
 }
 
-h1 {
-  font-size: 2em;
+body {
+  padding: 60px;
 }
+
 
 input {
-  color: gray;
-  font-size: 1.3em;
+  color: grey;
+  font-size: 1.2rem;
   width: 100%;
 }
 
-.cardGrid {
-  width: 100%;
+.card-grid {
   display: flex;
-  align-content: center;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 
 .card {
-  width: 22%;
-  margin: 1% 1%;
+  align-content: center;
   border: 1px solid grey;
   border-radius: 6px;
-}
-
-.card img {
-  width: 100%;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  overflow: hidden;
 }
 
 .card p {
-  margin: 0 10px;
+  padding: 5px;
   text-align: center;
 }
+
+.card img {
+  max-height: 170px;
+}
+
